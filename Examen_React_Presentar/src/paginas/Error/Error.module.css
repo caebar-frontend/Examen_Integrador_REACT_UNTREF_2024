@@ -1,0 +1,64 @@
+.base {
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-color: rgb(15, 15, 15);
+  border-radius: 10px;
+  border-color: rgb(122, 0, 0);
+  border-width: 2px;
+  border-style: solid;
+  width: 99.5vw;
+  height: 100vh;
+}
+
+.sectionuno {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border-color: rgb(122, 0, 0);
+  border-width: 2px;
+  border-style: solid;
+  padding: 20px;
+  max-height: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80vw;
+}
+
+h1 {
+  color: red;
+  font-size: 60px;
+}
+
+.sectiondos {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-color: rgb(16, 16, 16);
+  border-radius: 10px;
+  border-color: rgb(122, 0, 0);
+  border-width: 2px;
+  border-style: solid;
+  padding: 20px;
+  max-height: 350px;
+  width: 80vw;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.h1secundario {
+  color: rgb(247, 247, 97);
+  font-size: 50px;
+}

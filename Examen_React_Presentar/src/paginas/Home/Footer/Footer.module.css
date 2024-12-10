@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  width: 95vw;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  border: 5px solid rgb(103, 1, 1);
+  border-radius: 10px;
+  color: white;
+}
+
+.footerseccionuno {
+  display: flex;
+  flex-grow: 1;
+
+  flex-shrink: 1;
+  flex-direction: column;
+  margin: 1%;
+  border: 5px solid rgb(103, 1, 1);
+  text-align: center;
+}
+
+.footersecciondos {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  margin: 1%;
+  border-color: rgb(103, 1, 1);
+}
+
+.footerseccdivs {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  flex-grow: 1;
+  justify-content: center;
+  border: 2px solid rgb(103, 1, 1);
+  align-items: center;
+}

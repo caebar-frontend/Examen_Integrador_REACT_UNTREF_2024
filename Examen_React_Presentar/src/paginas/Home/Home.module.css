@@ -1,0 +1,209 @@
+body {
+  background-color: rgb(18, 18, 18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.headuno {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 150px;
+  width: 95vw;
+  border-radius: 10px;
+  border-color: rgb(103, 1, 1);
+  border-width: 3px;
+  border-style: solid;
+}
+
+.headunodiv {
+  flex-grow: 1;
+  flex-shrink: 1;
+  color: white;
+}
+
+.headunodivsegundo {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  color: white;
+  border: 1px dashed rgb(93, 93, 93);
+  border-radius: 10px;
+  margin-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  align-items: flex-end;
+}
+
+.headunoh4 {
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 0.5%;
+}
+
+.cerrarsesionbutton {
+  background-color: rgb(48, 24, 24);
+  color: rgb(176, 176, 176);
+  max-width: 300px;
+  height: 50px;
+  margin-right: 10%;
+  margin-top: 1%;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+.cerrarsesionbutton:hover {
+  background-color: rgb(92, 91, 91);
+  color: rgb(0, 0, 0);
+}
+
+.sectionnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 95vw;
+  height: 100px;
+  background-color: black;
+  border-radius: 10px;
+  border-color: rgb(103, 1, 1);
+  border-width: 3px;
+  border-style: solid;
+}
+
+.sectionnav nav {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sectionnav li {
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: inline-block;
+  margin: 1%;
+  border-radius: 5px;
+  border: 2px;
+  border-style: solid;
+  border-color: yellowgreen;
+  text-align: center;
+  border-radius: 10px;
+  border-color: rgb(103, 1, 1);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.sectionnav li a {
+  transition: all 0.3s ease-in-out 0.3s;
+}
+
+.sectionnav li a:hover {
+  background-color: rgb(72, 72, 72);
+  color: rgb(251, 252, 165);
+}
+
+.sectionnav li a {
+  color: rgb(251, 252, 165);
+  text-decoration: none;
+}
+
+.headdos {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  border-color: rgb(103, 1, 1);
+  border-width: 1px;
+  border-style: solid;
+  width: 95vw;
+}
+
+.headdos h2 {
+  color: white;
+  font-size: 35px;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+.seccionestodas {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  border-color: rgb(103, 1, 1);
+  border-width: 3px;
+  border-style: solid;
+  width: 95vw;
+  height: auto;
+}
+
+.seccionestodas h2 {
+  color: white;
+  font-size: 50px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.seccionestodas div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-around;
+  padding-bottom: 5%;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  flex-grow: 1;
+  max-width: 280px;
+  font-size: 0.8rem;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid white;
+  padding: 1%;
+  background-color: rgb(35, 35, 35);
+  text-align: center;
+}
+
+.articlesh4 {
+  margin-bottom: 5%;
+  font-size: 15px;
+  color: white;
+}
+
+.articlesimg {
+  max-width: 200px;
+  margin-bottom: 5%;
+}
+
+.articlesp {
+  max-width: 250px;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.articlesbutton {
+  max-width: 200px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  color: white;
+  background-color: rgb(136, 1, 1);
+}
